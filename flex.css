@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+section {
+	border: inset #333 thin;
+	padding: 1em;
+	}
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+.animals section{
+	background-color: lightskyblue;
+}
+.minerals section{
+	background-color: pink;
+}
+.vegetables section{
+	background-color: yellow;
+}
+header{
+	display: flex;
+	flex-direction: column;
+}
+main{
+	display: flex;
+	flex-direction: column;
+}
+@media screen and (min-width: 750px){
+	main{
+		flex-direction: row;
+	}
+}
